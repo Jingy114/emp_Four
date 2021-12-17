@@ -2,6 +2,18 @@ Four (Fang, Kaitlin, Jing)
 APCS PD06
 Lab_03 Plan
 2021-12-16
+______________________________________________________________________
+UPDATED PLAN
+
+Set timestamps before and after the method is run so the difference can be found easily.
+Organize the timestamps collected in a separate array in ascending order of the array lengths. 
+
+For each array size that we test, use binary and linear search on every element. The timestamps collected will be averaged and placed into the separate array above. 
+
+Implement the above with both recursive and iterative implementations of the two searches and compare the results.
+
+______________________________________________________________________
+ORIGINAL PLAN
 
 Goal: Test whether binary search is faster than linear search
 
