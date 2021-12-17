@@ -1,0 +1,7 @@
+Notes:
+
+Time Stamp
+- Method currentTimeMillis() is of the System class
+	- Invoked with System.currentTimeMillis()
+	- Returns a long representing time in milliseconds since midnight, 1970-01-01
+

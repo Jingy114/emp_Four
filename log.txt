@@ -1,0 +1,11 @@
+Logs:
+
+-------- 2021-12-16 -------- 
+
+Repo Updates:
+- Added notes.txt, log.txt, plan.txt files with content
+- Copied BinSearch.java and LinSearch.java from the library
+- Added SearchDriver.java
+
+Temporary Edit in SearchDriver:
+- Testing how currentTimeMillis works

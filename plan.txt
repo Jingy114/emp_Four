@@ -1,0 +1,25 @@
+Four (Fang, Kaitlin, Jing)
+APCS PD06
+Lab_03 Plan
+2021-12-16
+
+Goal: Test whether binary search is faster than linear search
+
+SearchDriver class:
+
+* Declare Comparable[] a and populate it with 10 int values (ascending order)
+
+* Print timestamp (pre-search)
+* Perform Binary Search on a for target object existing in a
+* Print timestamp (post-search)
+* Perform Linear Search on a for target object existing in a
+
+* Repeat with Comparable[] b and populate it with 10000 int values (ascending order), searching for an object existing in b
+	* Test with target in a low index
+	* Test with target in a high index
+* Repeat with b, searching for an object NOT existing in b
+
+Mentionable Query:
+* The code for both binary and linear searches can be written in numerous ways
+	* How do would we know if the code we are currently using is the most efficient versions?
+	* Should we use the iterative or recursive verson?
