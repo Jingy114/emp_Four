@@ -2,7 +2,7 @@
 
 ## Team Four 
 Roster: Fang Min Chen, Kaitlin Ho, Jing Yi Feng
-		Duckies: Cat, Peanut, Apple
+		Duckies: Cat, Biscuit, Apple
 
 ## Results
 
