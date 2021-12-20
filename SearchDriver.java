@@ -36,21 +36,26 @@ public class SearchDriver {
 		int foundIndex = 0;
 
 		// Test average time to Binary Search
+		sTime = System.currentTimeMillis();
 		for (int i = 0; i < arr.length; i ++) {
-			sTime = System.currentTimeMillis();
+			//sTime = System.currentTimeMillis();
 			foundIndex = binSearch(arr, arr[i]);
-			eTime = System.currentTimeMillis();
+			//eTime = System.currentTimeMillis();
 			timesBin[i] = eTime - sTime;
 		}
+		eTime = System.currentTimeMillis();
 
 		System.out.println(mean(timesBin));
-
+		
+		// Test avg time to Linear Search
+		sTime = System.currentTimeMillis();
 		for (int i = 0; i < arr.length; i ++) {
-			sTime = System.currentTimeMillis();
+			//sTime = System.currentTimeMillis();
 			foundIndex = linSearch(arr, arr[i]);
-			eTime = System.currentTimeMillis();
+			//eTime = System.currentTimeMillis();
 			timesLin[i] = eTime - sTime;
 		} 
+		eTime = System.currentTimeMillis();
 
 		System.out.println(mean(timesLin));
 		
