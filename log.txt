@@ -14,3 +14,6 @@ Temporary Edit in SearchDriver:
 
 Updated SearchDriver
 - Runnable and compilable code
+- Modified our code so the timer includes the for loop: the start and end time were taken directly before and after the for loop (the for loop used one 
+  of the two searches to search for every element in an array)
+- Compile data into a separate array; times for running through each array organized from the shortest to longest array.
