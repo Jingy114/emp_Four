@@ -19,7 +19,7 @@ public class SearchDriver {
 
 	public static void main(String[] args) {
 
-		Comparable[] arr = new Comparable[4000];
+		Comparable[] arr = new Comparable[444444];
 
 		// Populate array in ascending order
 		for (int i = 0; i < arr.length; i ++) {
