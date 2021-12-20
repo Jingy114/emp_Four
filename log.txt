@@ -9,3 +9,8 @@ Repo Updates:
 
 Temporary Edit in SearchDriver:
 - Testing how currentTimeMillis works
+
+-------- 2021-12-20 --------
+
+Updated SearchDriver
+- Runnable and compilable code
