@@ -1,5 +1,23 @@
 Logs:
 
+-------- 2021-12-21 --------
+
+Completed Assignment
+- Updated ReadMe.md with tests and conclusion
+
+-------- 2021-12-20 --------
+Class Time -----------------
+Updated SearchDriver
+- Runnable and compilable code
+- Modified our code so the timer includes the for loop: the start and end time were taken directly before and after the for loop (the for loop used one of the two searches to search for every element in an array)
+
+Afterschool --------------------
+- Moved the initial test into the run() method so it can be called easily
+- Length of arrays tested: 1000, 10000, 100000, 500000, 1000000, 5000000
+- Coded new test for minimum length of array for binary efficiency
+- Coded new tests for searching for comparables not in the array
+- Updated README
+
 -------- 2021-12-16 -------- 
 
 Repo Updates:
@@ -10,15 +28,5 @@ Repo Updates:
 Temporary Edit in SearchDriver:
 - Testing how currentTimeMillis works
 
--------- 2021-12-20 --------
-Class Time -----------------
-Updated SearchDriver
-- Runnable and compilable code
-- Modified our code so the timer includes the for loop: the start and end time were taken directly before and after the for loop (the for loop used one of the two searches to search for every element in an array)
-
-Afterschool --------------------
-- Moved the initial test into the run method so it can be called easily
-- Length of arrays tested: 1000, 10000, 100000, 500000, 1000000, 5000000
-- Updated README
 
 
