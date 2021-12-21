@@ -11,3 +11,32 @@ Average run time for Binary Search is 0.00125
 Average run time for Linear Search is 0.00625
 
 Binary Search is faster on average when searching in arrays of length 4000, for targets WITHIN the array
+
+
+GALLERY TOUR
+Teams visited: YAH, NYA, Peanut Butter and Nutella, 
+
+YAH
+General: 
+	For linear search, there was an exponential relationship between the array length and time taken to traverse the array.
+	For binary search, there was a linear relationship between the array length and the time taken to traverse the array.
+Questions + Answers:
+	What targets did you choose? - 100 evenly spaced targets per array
+	Is the graph of the ratio between Linear and Binary exponential or linear? - Looks linear until 50m, where it seems to shoot up. It might be exponential, as the linear dataset is exponential. 
+
+NYA
+General: 
+	Results had an abnormality. BinSearch on an array with length of 2m was 600x faster than LinSearch but for an array of 1m, BinSearch was 800x faster. We discussed for a bit and came up with another prediction in addition to the one on their Conclusions: it might have been the case that the trial they ran had the "best" or close to the best possible targets, as their targets were randomzied. When the code was ran again, the array length of 2m produced around 1.5-1.6k rather than 600, which follows the trend. 
+	
+Peanut Butter and Nutella
+General:
+	They used double rather than long to find the average time taken to search for a target (interesting because the other groups I talked to avoided average only because they were not able to produce anything other than 0 for the smaller array lengths)
+Questions + Answers:
+	Why find the average? - Because the cumulative data includes trials for all cases, ranging from best to worst case scenario. Averaging gives them an idea of around how much time a random target search will take. I asked them why they needed this as the hypothesis only mentioned relativity and the size of the data set, rather than specific targets, although I think they relate. (Time was up so they didn't answer me)
+	What targets did you choose? - Every single element was treated as a target
+	
+
+
+
+
+
