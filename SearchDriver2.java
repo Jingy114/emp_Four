@@ -74,7 +74,8 @@ public class SearchDriver2 {
 	}
 	
 	for (long i = 0; i < 50; i++){
-		System.out.print(binVlin[i] + " ");	
+		long result = binVlin[i];
+		System.out.print(result + " ");	
 	}
 	
 		
