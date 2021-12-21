@@ -18,8 +18,8 @@ public class SearchDriver2 {
 
   public static long run(Comparable[] arr){
     // Array with all the time differences
-    long[] timesBin = new long[arr.length];
-    long[] timesLin = new long[arr.length];
+    //long[] timesBin = new long[arr.length];
+    //long[] timesLin = new long[arr.length];
 
     long binTime;
     long linTime;
