@@ -40,7 +40,7 @@ public class SearchDriver2 {
     eTime = System.currentTimeMillis();
 
     binTime = eTime - sTime;
-    System.out.println(binTime);
+    //System.out.println(binTime);
 
     //System.out.println(mean(timesBin));
 
@@ -54,7 +54,7 @@ public class SearchDriver2 {
     }
     eTime = System.currentTimeMillis();
     linTime = eTime - sTime;
-    System.out.println(linTime);
+    //System.out.println(linTime);
     //System.out.println(mean(timesLin));
 
     return binTime - linTime;
@@ -63,19 +63,31 @@ public class SearchDriver2 {
 
 
 	public static void main(String[] args) {
+	
+	Compareable[] binVlin = new Comparable[50];
+	int n = 1000;
+	for (int i = 0, i < 50; i++){
+		Compareable[] arr = new Comparable[n];
+		Compareable[i] = run(arr);
+		n = math.pow(1000, i);
+	}
+	
+	for (int i: arr){
+		System.out.print(arr[i] + " ");	
+	}
+	
+		
+		
+//     while (run(arr) > 0){
+//     	Comparable[] arr = new Comparable[n];
+//       // Populate array in ascending order
+//       for (int i = 0; i < arr.length; i ++) {
+//         arr[i] = i * 2;
+//       }
 
-    Comparable[] arr = new Comparable[n];
-    while (run(arr) > 0){
-      arr.add();
+//       run(arr);
 
-      // Populate array in ascending order
-      for (int i = 0; i < arr.length; i ++) {
-        arr[i] = i * 2;
-      }
-
-      run(arr);
-
-    }
+//     }
 
 
 	}
