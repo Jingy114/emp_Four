@@ -69,12 +69,12 @@ public class SearchDriver2 {
 	int n = 1000;
 	for (int i = 0; i < 50; i++){
 		Comparable[] arr = new Comparable[n];
-		arr[i] = run(arr);
-		n = math.pow(1000, i);
+		binVlin[i] = run(arr);
+		n = Math.pow(1000, i);
 	}
 	
-	for (int i: arr){
-		System.out.print(arr[i] + " ");	
+	for (int i: binVlin){
+		System.out.print(binVlin[i] + " ");	
 	}
 	
 		
