@@ -64,10 +64,9 @@ public class SearchDriver2 {
 
 	public static void main(String[] args) {
 
-    int n;
     Comparable[] arr = new Comparable[n];
     while (run(arr) > 0){
-      Comparable[] arr = new Comparable[n];
+      arr.add();
 
       // Populate array in ascending order
       for (int i = 0; i < arr.length; i ++) {
@@ -75,8 +74,6 @@ public class SearchDriver2 {
       }
 
       run(arr);
-
-      n += 1;
 
     }
 
