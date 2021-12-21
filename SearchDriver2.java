@@ -65,7 +65,7 @@ public class SearchDriver2 {
 
 	public static void main(String[] args){
 	
-	Comparable[] binVlin = new Comparable[50];
+	long[] binVlin = new long[50];
 	int n = 1000;
 	for (int i = 0; i < 50; i++){
 		Comparable[] arr = new Comparable[n];
