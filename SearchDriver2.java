@@ -1,5 +1,14 @@
 public class SearchDriver2 {
 
+/* TO DO LIST: u dont have to do everything, ranked from most important? i think only if you have TIME ok dont sleep late
+- IF THIS WORKS CHANGE THIS TO SEARCHDRIVER AND YOU CAN DELETE THE OTHER ONE OR CHANGE THAT TO 2 INSTEAD.
+- results + conclusions in README. (ill just put a template prob), add more if you implement more methods
+- what happens if target is NOT included in the array (you can add the results to the print statements, just remember to add it
+	in the top heading thing (like the ---array length-- bin search -- lin search --)
+- method to find at what array length bin > lin // in addition: maybe run the searches on smaller length arrays * 100 to compare
+- if we used iterative, use recursive and vice versa
+*/
+
 	public static double mean(long[] a) {
 		long sum = 0;
 		for (int i = 0; i < a.length; i ++) {
@@ -70,13 +79,13 @@ public class SearchDriver2 {
 	Comparable[] fiveHT = new Comparable[500000];
 	run(fiveHT);
 	
-// 	System.out.println("-----------one-million-----------");
-// 	Comparable[] mil = new Comparable[1000000];
-// 	System.out.println(run(thousand));
+ 	System.out.println("-----------one-million-----------");
+	Comparable[] mil = new Comparable[1000000];
+	System.out.println(run(thousand));
 	
-// 	System.out.println("-----------five-million-----------");
-// 	Comparable[] fiveM = new Comparable[5000000];
-// 	System.out.println(run(thousand));
+	System.out.println("-----------five-million-----------");
+	Comparable[] fiveM = new Comparable[5000000];
+	System.out.println(run(thousand));
 	
 
 	}
