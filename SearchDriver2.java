@@ -65,11 +65,11 @@ public class SearchDriver2 {
 
 	public static void main(String[] args){
 	
-	Compareable[] binVlin = new Comparable[50];
+	Comparable[] binVlin = new Comparable[50];
 	int n = 1000;
 	for (int i = 0; i < 50; i++){
-		Compareable[] arr = new Comparable[n];
-		Compareable[i] = run(arr);
+		Comparable[] arr = new Comparable[n];
+		Comparable[i] = run(arr);
 		n = math.pow(1000, i);
 	}
 	
