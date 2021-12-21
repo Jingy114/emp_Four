@@ -84,8 +84,8 @@ public class SearchDriver2 {
 	Comparable[] mil = new Comparable[1000000];
 	run(mil);
 	
-	System.out.println("-----------five-million-----------");
-	Comparable[] fiveM = new Comparable[5000000];
+	System.out.println("-----------two-million-----------");
+	Comparable[] fiveM = new Comparable[2000000];
 	run(fiveM);
 	
 
