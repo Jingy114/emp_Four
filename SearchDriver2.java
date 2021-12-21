@@ -16,7 +16,7 @@ public class SearchDriver2 {
 		return LinSearch.linSearch(a, target);
 	}
 
-  public static long run(Comparable[] arr){
+  public static void run(Comparable[] arr){
 	// Populate array in ascending order
 	for (int i = 0; i < arr.length; i ++) {
 		arr[i] = i * 2;
