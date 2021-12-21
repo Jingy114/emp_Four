@@ -65,15 +65,33 @@ public class SearchDriver2 {
 
 	public static void main(String[] args){
 	
-	long[] binVlin = new long[50];
-	int n = 1000;
-	for (int i = 0; i < 50; i++){
-		Comparable[] arr = new Comparable[n];
-		//binVlin[i] = run(arr);
+	Comparable[] thousand = new Compareable[1000];
+	System.out.println(run(thousand));
+		
+	Comparable[] tenT = new Compareable[10000];
+	System.out.println(run(thousand));
+		
+	Comparable[] hundredT = new Compareable[100000];
+	System.out.println(run(thousand));
+	
+	Comparable[] fiveHT = new Compareable[500000];
+	System.out.println(run(thousand));
+	
+	Comparable[] mil = new Compareable[1000000];
+	System.out.println(run(thousand));
+	
+	Comparable[] fiveM = new Compareable[5000000];
+	System.out.println(run(thousand));
+	
+// 	long[] binVlin = new long[50];
+// 	int n = 1000;
+// 	for (int i = 0; i < 50; i++){
+// 		Comparable[] arr = new Comparable[n];
+// 		//binVlin[i] = run(arr);
 
-		System.out.print(run(arr));
-		n = (int) Math.pow(1000, i);
-	}
+// 		System.out.print(run(arr));
+// 		n = (int) Math.pow(1000, i);
+// 	}
 	
 // 	for (long i = 0; i < 50; i++){
 // 		long result = binVlin[i];
