@@ -30,34 +30,30 @@ public class SearchDriver2 {
 	// Test average time to Binary Search
 	sTime = System.currentTimeMillis();
 	for (int i = 0; i < arr.length; i ++) {
-		//sTime = System.currentTimeMillis();
 		foundIndex = binSearch(arr, arr[i]);
-		//eTime = System.currentTimeMillis();
-		//timesBin[i] = eTime - sTime;
 	}
 	eTime = System.currentTimeMillis();
 
 	System.out.println(eTime - sTime);
 
-	//System.out.println(mean(timesBin));
+
 
 	// Test avg time to Linear Search
 	sTime = System.currentTimeMillis();
-	for (int i = 0; i < arr.length; i ++) {
-		//sTime = System.currentTimeMillis();
+	for (int i = 0; i < arr.length; i ++){
 		foundIndex = linSearch(arr, arr[i]);
-		//eTime = System.currentTimeMillis();
-		//timesLin[i] = eTime - sTime;
 	} 
 	eTime = System.currentTimeMillis();
 	System.out.println(eTime - sTime);
-	//System.out.println(mean(timesLin));
+
 
   }
 
 
 	public static void main(String[] args){
 	
+	System.out.println("-----------array-length-----------" + "\n" + "binary search time" + "\n" + "linear search time");
+		
 	System.out.println("-----------one-thousand-----------");
 	Comparable[] thousand = new Comparable[1000];
 	run(thousand);
