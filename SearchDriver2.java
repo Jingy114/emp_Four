@@ -73,7 +73,7 @@ public class SearchDriver2 {
 		n = (int) Math.pow(1000, i);
 	}
 	
-	for (long i: binVlin){
+	for (long i = 0; i < 50; i++){
 		System.out.print(binVlin[i] + " ");	
 	}
 	
