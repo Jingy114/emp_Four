@@ -5,3 +5,9 @@ Time Stamp
 	- Invoked with System.currentTimeMillis()
 	- Returns a long representing time in milliseconds since midnight, 1970-01-01
 
+Results from Class
+Ran Driver:
+Average run time for Binary Search is 0.00125
+Average run time for Linear Search is 0.00625
+
+Binary Search is faster on average when searching in arrays of length 4000, for targets WITHIN the array
