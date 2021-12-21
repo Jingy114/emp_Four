@@ -65,22 +65,22 @@ public class SearchDriver2 {
 
 	public static void main(String[] args){
 	
-	Comparable[] thousand = new Compareable[1000];
+	Comparable[] thousand = new Comparable[1000];
 	System.out.println(run(thousand));
 		
-	Comparable[] tenT = new Compareable[10000];
+	Comparable[] tenT = new Comparable[10000];
 	System.out.println(run(thousand));
 		
-	Comparable[] hundredT = new Compareable[100000];
+	Comparable[] hundredT = new Comparable[100000];
 	System.out.println(run(thousand));
 	
-	Comparable[] fiveHT = new Compareable[500000];
+	Comparable[] fiveHT = new Comparable[500000];
 	System.out.println(run(thousand));
 	
-	Comparable[] mil = new Compareable[1000000];
+	Comparable[] mil = new Comparable[1000000];
 	System.out.println(run(thousand));
 	
-	Comparable[] fiveM = new Compareable[5000000];
+	Comparable[] fiveM = new Comparable[5000000];
 	System.out.println(run(thousand));
 	
 // 	long[] binVlin = new long[50];
