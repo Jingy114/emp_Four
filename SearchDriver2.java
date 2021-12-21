@@ -70,10 +70,10 @@ public class SearchDriver2 {
 	for (int i = 0; i < 50; i++){
 		Comparable[] arr = new Comparable[n];
 		binVlin[i] = run(arr);
-		n = Math.pow(1000, i);
+		n = (int) Math.pow(1000, i);
 	}
 	
-	for (int i: binVlin){
+	for (long i: binVlin){
 		System.out.print(binVlin[i] + " ");	
 	}
 	
