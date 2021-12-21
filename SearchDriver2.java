@@ -37,6 +37,7 @@ public class SearchDriver2 {
       //eTime = System.currentTimeMillis();
       //timesBin[i] = eTime - sTime;
     }
+	  
     eTime = System.currentTimeMillis();
 
     binTime = eTime - sTime;
@@ -62,11 +63,11 @@ public class SearchDriver2 {
   }
 
 
-	public static void main(String[] args) {
+	public static void main(String[] args){
 	
 	Compareable[] binVlin = new Comparable[50];
 	int n = 1000;
-	for (int i = 0, i < 50; i++){
+	for (int i = 0; i < 50; i++){
 		Compareable[] arr = new Comparable[n];
 		Compareable[i] = run(arr);
 		n = math.pow(1000, i);
