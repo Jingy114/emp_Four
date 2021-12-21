@@ -69,7 +69,7 @@ public class SearchDriver2 {
 	int n = 1000;
 	for (int i = 0; i < 50; i++){
 		Comparable[] arr = new Comparable[n];
-		Comparable[i] = run(arr);
+		arr[i] = run(arr);
 		n = math.pow(1000, i);
 	}
 	
