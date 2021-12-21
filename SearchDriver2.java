@@ -81,11 +81,11 @@ public class SearchDriver2 {
 	
  	System.out.println("-----------one-million-----------");
 	Comparable[] mil = new Comparable[1000000];
-	System.out.println(run(thousand));
+	run(mil);
 	
 	System.out.println("-----------five-million-----------");
 	Comparable[] fiveM = new Comparable[5000000];
-	System.out.println(run(thousand));
+	run(fiveM);
 	
 
 	}
