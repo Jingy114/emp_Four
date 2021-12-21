@@ -64,15 +64,15 @@ public class SearchDriver2 {
 	
 	System.out.println("-----------ten-thousand-----------");
 	Comparable[] tenT = new Comparable[10000];
-	System.out.println(run(thousand));
+	System.out.println(run(tenT));
 	
 	System.out.println("-----------one-hundred-thousand-----------");
 	Comparable[] hundredT = new Comparable[100000];
-	System.out.println(run(thousand));
+	System.out.println(run(hundredT));
 	
 	System.out.println("----------five-hundred-thousand-----------");
 	Comparable[] fiveHT = new Comparable[500000];
-	System.out.println(run(thousand));
+	System.out.println(run(fiveHT));
 	
 // 	System.out.println("-----------one-million-----------");
 // 	Comparable[] mil = new Comparable[1000000];
