@@ -3,6 +3,7 @@ public class SearchDriver2 {
 /* TO DO LIST: u dont have to do everything, ranked from most important? i think only if you have TIME ok dont sleep late
 - IF THIS WORKS CHANGE THIS TO SEARCHDRIVER AND YOU CAN DELETE THE OTHER ONE OR CHANGE THAT TO 2 INSTEAD.
 - results + conclusions in README. (ill just put a template prob), add more if you implement more methods
+- PLEASE MAKE THE TEST SECTION MORE SPECIFIC. I ALSO DID NOT KNOW HOW TO WRITE THE CONCLUSIONS.
 - what happens if target is NOT included in the array (you can add the results to the print statements, just remember to add it
 	in the top heading thing (like the ---array length-- bin search -- lin search --)
 - method to find at what array length bin > lin // in addition: maybe run the searches on smaller length arrays * 100 to compare
