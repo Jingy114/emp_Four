@@ -14,7 +14,7 @@ Binary Search is faster on average when searching in arrays of length 4000, for 
 
 
 GALLERY TOUR
-Teams visited: YAH, NYA, Peanut Butter and Nutella, 
+Teams visited: YAH, NYA, Peanut Butter and Nutella, ABA, StrawberryJAM, <?>
 
 YAH
 General: 
@@ -34,7 +34,15 @@ General:
 Questions + Answers:
 	Why find the average? - Because the cumulative data includes trials for all cases, ranging from best to worst case scenario. Averaging gives them an idea of around how much time a random target search will take. I asked them why they needed this as the hypothesis only mentioned relativity and the size of the data set, rather than specific targets, although I think they relate. (Time was up so they didn't answer me)
 	What targets did you choose? - Every single element was treated as a target
-	
+
+ABA
+Their algorithm was clear and prduced the wanted results. They concluded that the relationship between the array length and time for linear search is a linear relationship. I really liked how they added a graph to their README because it clearly helps visualize the results. 
+
+StrawberryJAM
+Their algrotihm was clear and easy to follow through and understand. It was very clever how they used the "worst case scenario" which means a value thats definetly not in the array to test how long it takes to go through the array. For linear search they concluded that there is a linear relationship between array size and time. By every increment if 10 the array size increased, the time also increases. For binary srarch they concluded that there is an exponential relationship between the array size and time it took to go through the array. 
+
+<?>
+Clear algorithm, understadable code. They tested both iterative and recursuve for linear search andf binary search. It was interesting that they found that the for loop took longer to run than without the for loop. They also concluded that there is a linear relationship between the array size and the time it took to run through the array for linear search. 
 
 
 
